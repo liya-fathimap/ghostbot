@@ -70,7 +70,7 @@
                 document.getElementById("response").innerHTML = "<strong>Error:</strong> Please enter a message.";
                 return;
             }
-
+            
             fetch('/ask', {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
